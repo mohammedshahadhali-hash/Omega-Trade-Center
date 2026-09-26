@@ -13,3 +13,10 @@ This version includes:
 - Mobile responsive layout.
 
 The four products in script.js are temporary placeholders. Later we can replace them and build a proper Admin page where you can add products without editing code.
+
+
+## Simple Admin Password
+- Public Admin link opens `admin-login.html`.
+- The current temporary password is `OmegaAdmin123!`.
+- CHANGE `ADMIN_PASSWORD` inside `admin-login.html` to your own password before publishing.
+- This is a simple client-side password gate, not server-side authentication. Do not use a highly sensitive password.
